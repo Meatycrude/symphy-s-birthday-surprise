@@ -25,10 +25,10 @@ function Memories() {
           transition={{ duration: 0.7 }}
           className="mt-3 font-display text-4xl font-semibold text-gradient-rose sm:text-6xl"
         >
-          The Beautiful Moments We've Shared
+          Beautiful Memories 
         </motion.h1>
         <p className="mx-auto mt-5 max-w-xl text-muted-foreground">
-          A small timeline of us — every photo is a heartbeat I want to keep.
+          A small timeline  — every photo is a heartbeat I want to keep.
         </p>
       </section>
 
