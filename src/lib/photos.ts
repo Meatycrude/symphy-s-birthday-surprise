@@ -40,7 +40,7 @@ export const memories = [
     date: "chilled afternoon",
     caption: "",
   },
-  { src: memory6, date: "The Promise", caption: "" },
+  { src: memory6, date: "The Promise", caption: "I promised you forever, and I meant every word." },
 ];
 
 // 🎵 REPLACE with your chosen birthday song — drop the file into src/assets/
