@@ -26,7 +26,7 @@ export const memories = [
   },
   {
     src: memory2,
-    date: "Sunset Walks",
+    date: "Sunset Walk",
     caption: "Every sunset felt softer with your hand in mine.",
   },
   {
@@ -34,10 +34,10 @@ export const memories = [
     date: "That Little Trip",
     caption: "Lost together, found each other a little more.",
   },
-  { src: memory5, date: "Lazy Sundays", caption: "Just us, coffee, and slow mornings heaven." },
+  { src: memory5, date: "Lazy Saturday", caption: "Just us, coffee, and slow mornings heaven." },
   {
     src: memory4,
-    date: "Dancing in the Kitchen",
+    date: "chilles afternoon",
     caption: "Burnt toast and your laughter best soundtrack ever.",
   },
   { src: memory6, date: "The Promise", caption: "I promised you forever, and I meant every word." },
