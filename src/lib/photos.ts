@@ -22,25 +22,25 @@ export const memories = [
   {
     src: memory1,
     date: "Soft afternoons",
-    caption: "Petals, peonies, and quiet moments that smelled like spring.",
+    caption: "",
   },
   {
     src: memory2,
     date: "Sunset Walk",
-    caption: "Every sunset felt softer with your hand in mine.",
+    caption: "",
   },
   {
     src: memory3,
     date: "That Little Trip",
-    caption: "Lost together, found each other a little more.",
+    caption: "",
   },
-  { src: memory5, date: "Lazy Saturday", caption: "Just us, coffee, and slow mornings heaven." },
+  { src: memory5, date: "Lazy Saturday", caption: "" },
   {
     src: memory4,
-    date: "chilles afternoon",
-    caption: "Burnt toast and your laughter best soundtrack ever.",
+    date: "chilled afternoon",
+    caption: "",
   },
-  { src: memory6, date: "The Promise", caption: "I promised you forever, and I meant every word." },
+  { src: memory6, date: "The Promise", caption: "" },
 ];
 
 // 🎵 REPLACE with your chosen birthday song — drop the file into src/assets/
