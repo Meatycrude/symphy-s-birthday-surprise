@@ -2,7 +2,7 @@
 // REPLACE these imports with your real photos, Feli — just drop your files into
 // those folders (any format: .jpg, .png, .webp, .svg) and update the imports below.
 
-import symphy1 from "@/assets/photos/m1.jpg";
+import symphy1 from "@/assets/photos/m8.jpeg";
 import symphy2 from "@/assets/photos/m2.jpg";
 import symphy3 from "@/assets/photos/m3.jpg";
 import symphy4 from "@/assets/photos/m4.jpg";

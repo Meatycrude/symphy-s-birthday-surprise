@@ -46,7 +46,7 @@ function Welcome() {
           transition={{ delay: 0.1 }}
           className="font-script text-3xl text-primary sm:text-4xl"
         >
-          for my Symphy
+          for my Love
         </motion.p>
 
         <motion.h1
@@ -66,8 +66,8 @@ function Welcome() {
           transition={{ delay: 0.6 }}
           className="mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg"
         >
-          Today the whole world gets a little brighter — because you were born.
-          I built this little corner of the internet just for you. — Feli
+          Today the whole world gets a little brighter  because you were born.
+          I built this little corner of the internet just for you. Feli
         </motion.p>
 
         <motion.button
