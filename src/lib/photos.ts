@@ -10,7 +10,7 @@ import symphy5 from "@/assets/photos/m5.jpg";
 import symphy6 from "@/assets/photos/m6.jpg";
 
 import memory1 from "@/assets/memories/m7.jpg";
-import memory2 from "@/assets/memories/m8.jpeg";
+import memory2 from "@/assets/memories/m1.jpg";
 import memory3 from "@/assets/memories/m9.jpeg";
 import memory4 from "@/assets/memories/m10.jpeg";
 import memory5 from "@/assets/memories/m11.jpeg";

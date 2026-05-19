@@ -33,7 +33,12 @@ function Welcome() {
             className="absolute h-3 w-3 rounded-full bg-primary/30 blur-[1px]"
             initial={{ x: `${(i * 53) % 100}%`, y: -20, opacity: 0 }}
             animate={{ y: ["-5%", "110%"], opacity: [0, 1, 0] }}
-            transition={{ duration: 10 + (i % 6), repeat: Infinity, delay: i * 0.4, ease: "easeInOut" }}
+            transition={{
+              duration: 10 + (i % 6),
+              repeat: Infinity,
+              delay: i * 0.4,
+              ease: "easeInOut",
+            }}
             style={{ left: `${(i * 53) % 100}%` }}
           />
         ))}
@@ -55,9 +60,7 @@ function Welcome() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mt-4 font-display text-5xl font-semibold leading-tight text-gradient-rose sm:text-7xl md:text-8xl"
         >
-          
-            Happy Birthday, Symphy! ❤️
-          
+          Happy Birthday, Symphy! ❤️
         </motion.h1>
 
         <motion.p
@@ -66,12 +69,15 @@ function Welcome() {
           transition={{ delay: 0.6 }}
           className="mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg"
         >
-          Today the whole world gets a little brighter  because you were born.
-          I built this little corner of the internet just for you. Feli
+          Today the whole world gets a little brighter because you were born. I built this little
+          corner of the internet just for you. Feli
         </motion.p>
 
         <motion.button
-          onClick={() => { toggle(); sideCannons(); }}
+          onClick={() => {
+            toggle();
+            sideCannons();
+          }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.96 }}
           initial={{ opacity: 0, y: 10 }}
@@ -79,7 +85,7 @@ function Welcome() {
           transition={{ delay: 0.8 }}
           className="mt-8 rounded-full glass px-6 py-3 text-sm font-medium text-foreground shadow-soft"
         >
-          {playing ? "🎵 Pause Music" : "🎵 Play Music"}
+          {playing ? "🎵 Pause Music" : "Click here"}
         </motion.button>
       </section>
 
