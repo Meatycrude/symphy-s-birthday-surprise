@@ -55,13 +55,9 @@ function Welcome() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mt-4 font-display text-5xl font-semibold leading-tight text-gradient-rose sm:text-7xl md:text-8xl"
         >
-          <motion.span
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="inline-block"
-          >
+          
             Happy Birthday, Symphy! ❤️
-          </motion.span>
+          
         </motion.h1>
 
         <motion.p
