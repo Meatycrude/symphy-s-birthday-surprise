@@ -21,8 +21,8 @@ export const symphyPhotos = [symphy1, symphy2, symphy3, symphy4, symphy5, symphy
 export const memories = [
   {
     src: memory1,
-    date: "Our First Date",
-    caption: "The night I knew you were different. Coffee turned into hours.",
+    date: "Soft afternoons",
+    caption: "Petals, peonies, and quiet moments that smelled like spring.",
   },
   {
     src: memory2,
@@ -34,11 +34,11 @@ export const memories = [
     date: "That Little Trip",
     caption: "Lost together, found each other a little more.",
   },
-  { src: memory4, date: "Lazy Sundays", caption: "Just us, coffee, and slow mornings — heaven." },
+  { src: memory5, date: "Lazy Sundays", caption: "Just us, coffee, and slow mornings heaven." },
   {
-    src: memory5,
+    src: memory4,
     date: "Dancing in the Kitchen",
-    caption: "Burnt toast and your laughter — best soundtrack ever.",
+    caption: "Burnt toast and your laughter best soundtrack ever.",
   },
   { src: memory6, date: "The Promise", caption: "I promised you forever, and I meant every word." },
 ];

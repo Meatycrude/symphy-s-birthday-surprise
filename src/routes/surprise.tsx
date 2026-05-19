@@ -10,7 +10,7 @@ export const Route = createFileRoute("/surprise")({
   head: () => ({
     meta: [
       { title: "A Surprise for Symphy ✨" },
-      { name: "description", content: "A floating dream — for the most incredible girl in the world." },
+      { name: "description", content: "A floating dream for the most incredible girl in the world." },
     ],
   }),
 });
@@ -89,7 +89,7 @@ function Surprise() {
           className="glass mt-12 max-w-2xl rounded-3xl p-8 shadow-soft sm:p-12"
         >
           <p className="font-display text-xl leading-relaxed text-foreground sm:text-2xl">
-            To the most incredible girl in the world — your smile lights up my
+            To the most incredible girl in the world  your smile lights up my
             whole life. Happy Birthday, Symphy.
           </p>
           <p className="mt-6 font-script text-2xl text-primary">all my love, Feli ❤️</p>
