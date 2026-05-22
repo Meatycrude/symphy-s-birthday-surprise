@@ -38,7 +38,7 @@
 }
 
 :root {
-  --radius: 1rem;
+  --radius: 1.2rem;
   /* Soft pinks, rose gold, cream, warm whites */
   --background: oklch(0.985 0.012 30);
   --foreground: oklch(0.32 0.04 15);
