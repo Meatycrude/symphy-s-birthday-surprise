@@ -52,7 +52,7 @@ function Memories() {
                     <img src={m.src} alt={m.date} loading="lazy" className="h-64 w-full object-cover transition-transform duration-700 hover:scale-105" />
                   </div>
                 </div>
-                <div className="ml-12 mt-4 sm:ml-0 sm:mt-0 sm:w-1/2 sm:px-8">
+                <div className="ml-12 mt-3 sm:ml-0 sm:mt-0 sm:w-1/2 sm:px-8">
                   <div className="glass rounded-2xl p-5 shadow-soft">
                     <p className="font-script text-2xl text-primary">{m.date}</p>
                     <p className="mt-2 text-foreground/80">{m.caption}</p>
@@ -60,7 +60,7 @@ function Memories() {
                 </div>
                 {/* Dot */}
                 <div className="absolute left-4 top-6 -translate-x-1/2 sm:left-1/2">
-                  <div className="h-4 w-4 rounded-full bg-gradient-romance shadow-glow" />
+                  <div className="h-3 w-4 rounded-full bg-gradient-romance shadow-glow" />
                 </div>
               </motion.div>
             );
