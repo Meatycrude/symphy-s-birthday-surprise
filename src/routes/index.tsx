@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
@@ -9,8 +10,8 @@ export const Route = createFileRoute("/")({
   component: Welcome,
   head: () => ({
     meta: [
-      { title: "Happy Birthday, Symphy ❤️" },
-      { name: "description", content: "A magical birthday surprise from Feli." },
+      { title: "Happy Birthday, Sheila❤️" },
+      { name: "description", content: "A magical birthday surprise from HarryPotter." },
     ],
   }),
 });
@@ -51,7 +52,7 @@ function Welcome() {
           transition={{ delay: 0.1 }}
           className="font-script text-3xl text-primary sm:text-4xl"
         >
-          for my Love
+          
         </motion.p>
 
         <motion.h1
@@ -60,7 +61,7 @@ function Welcome() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mt-4 font-display text-5xl font-semibold leading-tight text-gradient-rose sm:text-7xl md:text-8xl"
         >
-          Happy Birthday, Symphy! ❤️
+          Happy Birthday, Sheila! ❤️
         </motion.h1>
 
         <motion.p
@@ -69,8 +70,8 @@ function Welcome() {
           transition={{ delay: 0.6 }}
           className="mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg"
         >
-          Today the whole world gets a little brighter because you were born. I built this little
-          corner of the internet just for you. Feli
+          Today the whole world gets a little brighter because you were born. We built this little
+          corner of the internet just for you. 
         </motion.p>
 
         <motion.button
@@ -124,10 +125,10 @@ function Welcome() {
             whileTap={{ scale: 0.96 }}
             className="glow-btn rounded-full bg-gradient-romance px-10 py-5 text-base font-semibold text-primary-foreground sm:text-lg"
           >
-            Step into Our Memories →
+            Step into your Memories →
           </motion.button>
         </Link>
-        <p className="mt-4 font-script text-xl text-primary/80">click me, love</p>
+        <p className="mt-4 font-script text-xl text-primary/80">click me,</p>
       </section>
     </main>
   );
