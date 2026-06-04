@@ -81,7 +81,7 @@ function Surprise() {
           animate={{ opacity: 1, y: 0 }}
           className="font-script text-4xl text-primary"
         >
-          my forever
+          From all of all us back Home
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, scale: 0.9 }}
@@ -89,7 +89,7 @@ function Surprise() {
           transition={{ duration: 1 }}
           className="mt-4 font-display text-5xl font-semibold text-gradient-rose sm:text-7xl"
         >
-          You, Sky. Always you.
+          Happy Birthday
         </motion.h1>
 
         <motion.div
@@ -99,10 +99,13 @@ function Surprise() {
           className="glass mt-12 max-w-2xl rounded-3xl p-8 shadow-soft sm:p-12"
         >
           <p className="font-display text-xl leading-relaxed text-foreground sm:text-2xl">
-            To the most incredible girl in the world your smile lights up my whole life. Happy
-            Birthday, Love.
+            To the most incredible girl in the world ;you are the heart of our family, the light of
+            our lives, and the reason for so many smiles. We hope this little surprise brings you as
+            much joy as you bring to us every day. Here's to you, Sheila ;may your birthday be
+            filled with love, laughter, and unforgettable moments. We love you more than words can
+            say!
           </p>
-          <p className="mt-6 font-script text-2xl text-primary">all my love, Feli ❤️</p>
+          <p className="mt-6 font-script text-2xl text-primary"></p>
         </motion.div>
 
         <Link to="/" className="mt-10 text-sm text-muted-foreground hover:text-primary">
